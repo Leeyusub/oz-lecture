@@ -1,0 +1,78 @@
+header {
+  padding: 20px;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+aside h3 {
+  font-size: 1.5em;
+  padding: 10px;
+  border-left: 3px solid #007bff;
+  margin: 20px;
+  position: relative;
+}
+
+.project {
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.my-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
