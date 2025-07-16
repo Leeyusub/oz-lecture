@@ -1,12 +1,12 @@
 // 최대 타이머 제한 상수
 const MAX_TIME = 10;
 
-// 타이머 메시지용 변수 (var 사용 예시)
+// 타이머 메시지용 변수
 var timerMessage = "";
 
-// 타이머 시작 함수 선언 (기본 매개변수 사용)
+// 타이머 시작 함수 선언
 function startTimer(seconds = 10) {
-  let timerCount = seconds; // let 사용 예시
+  let timerCount = seconds;
 
   const display = document.getElementById("timerDisplay");
   const button = document.getElementById("startTimer");
@@ -29,7 +29,7 @@ function startTimer(seconds = 10) {
   }, 1000);
 }
 
-// 시작 버튼 클릭 이벤트 처리
+// 시작 버튼 클릭 이벤트
 document.getElementById("startTimer").addEventListener("click", function () {
   const input = document.getElementById("timerInput").value;
   const display = document.getElementById("timerDisplay");
